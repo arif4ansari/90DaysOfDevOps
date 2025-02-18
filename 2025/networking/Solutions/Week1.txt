@@ -1,0 +1,27 @@
+This week, I kicked off my Networking Challenge as part of my DevOps Skill-Up journey, and it’s been an exciting experience! Along with connecting with industry professionals, I focused on daily learning and started sharing my knowledge through blog articles on Hash node.
+
+💡 Day-by-Day Breakdown:
+
+📅 Day 1: Networking In DevOps.
+📅 Day 2: TCP and UDP.
+📅 Day 3: Essential Internet Protocols in the DevOps World.
+📅 Day 4: AWS EC2 and Security Groups: A Comprehensive Guide.
+📅 Day 5: DevOps Networking Commands: Your Handy Cheat Sheet.
+
+📝 Blog Articles Published on Hashnode:
+1️⃣ https://networking-in-devops.hashnode.dev/networking-in-devops
+2️⃣ https://networking-in-devops.hashnode.dev/tcp-and-udp
+3️⃣ https://networking-in-devops.hashnode.dev/essential-internet-protocols-in-the-devops-world
+4️⃣ https://networking-in-devops.hashnode.dev/aws-ec2-and-security-groups-a-comprehensive-guide
+5️⃣ https://networking-in-devops.hashnode.dev/devops-networking-commands-your-handy-cheat-sheet
+
+This challenge has reinforced the power of learning, networking, and sharing knowledge. 🚀
+
+Next Steps for Week 2:
+🔹 Continue deep-diving into DevOps tools and best practices.
+🔹 Engage more in LinkedIn and Hashnode discussions.
+🔹 Publish more blogs and document my learning journey.
+
+To those also learning DevOps, how do you document your journey? Let’s connect, learn, and grow together! 📈💡
+
+#90DaysOfDevOps #DevOps #NetworkingChallenge #CareerGrowth #LearningJourney #TechCommunity
