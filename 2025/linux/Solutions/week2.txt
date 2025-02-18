@@ -1,0 +1,62 @@
+Hands-on Linux Administration 🐧🔥
+
+This week, I worked on user management, file permissions, log analysis, process monitoring, and automation! 💻🚀
+
+1️⃣ User & Group Management
+✅ Created a new user and added them to a group
+✅ Set a password and granted sudo access
+✅ Restricted SSH login for specific users
+📌 Commands Used:
+💻 sudo useradd devops_user
+💻 sudo passwd devops_user
+💻 sudo groupadd devops_team
+💻 sudo usermod -aG devops_team devops_user
+💻 sudo usermod -aG sudo devops_user
+💻 echo "DenyUsers restricted_user" | sudo tee -a /etc/ssh/sshd_config
+💻 sudo systemctl restart sshd
+
+2️⃣ File & Directory Permissions
+✅ Created a directory and file
+✅ Set Owner: edit, Group: read, Others: no access
+✅ Verified permissions
+📌 Commands Used:
+💻 mkdir /devops_workspace
+💻 touch /devops_workspace/project_notes.txt
+💻 chmod 640 /devops_workspace/project_notes.txt
+💻 ls -l /devops_workspace
+
+3️⃣ Log File Analysis (AWK, Grep & Sed)
+✅ Analyzed logs using grep, awk, and sed
+✅ Extracted errors, timestamps, and replaced sensitive data
+📌 Commands Used:
+💻 grep -i "error" Linux_2k.log
+💻 awk '{print $1, $2, $3}' Linux_2k.log
+💻 sed -E 's/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/[REDACTED]/g' Linux_2k.log
+💻 awk '{print $0}' Linux_2k.log | sort | uniq -c | sort -nr | head -10
+
+4️⃣ Volume Management & Disk Usage
+✅ Created and mounted a volume
+✅ Verified disk usage
+📌 Commands Used:
+💻 mkdir /mnt/devops_data
+💻 sudo mount /dev/xvdf /mnt/devops_data
+💻 df -h
+💻 mount | grep devops_data
+
+5️⃣ Process Management & Monitoring
+✅ Started and monitored a background process
+✅ Killed and verified process termination
+📌 Commands Used:
+💻 ping google.com > ping_test.log &
+💻 ps aux | grep ping
+💻 top
+💻 htop
+💻 kill -9 <PID>
+
+6️⃣ Automating Backups with Shell Scripting
+✅ Created a backup script and scheduled it using cron
+✅ Added a success message in green text
+📌 Commands Used:
+💻 echo -e "\e[32mBackup Completed Successfully!\e[0m"
+💻 tar -czf /backups/backup_$(date +%F).tar.gz /devops_workspace
+💻 crontab -e # Scheduled the backup
